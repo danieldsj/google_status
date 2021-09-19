@@ -1,0 +1,8 @@
+dist/
+docs/
+coverage/
+build/
+__pycache__
+.env/
+*.py[cod]
+.coverage
