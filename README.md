@@ -1,3 +1,5 @@
+## Overview
+
 The google_status module can be executed and does the following:
 
 * Download Google Cloud Platform historic status information. 
@@ -5,10 +7,12 @@ The google_status module can be executed and does the following:
 * Output comma separated values to standard out (stdout).
 * Output debug logging to standard error (stderr).
 
-Usage:
+## Usage
+Example:
+
   python -m google_status > incident_history.csv
 
-Output:
+## Output
 
 A comma seprated values:
 
