@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 """
+A tool to generate a CSV representation of historic Google Cloud Platform incidents.
+
 The google_status module can be executed and does the following:
 
 * Download Google Cloud Platform historic status information. 
@@ -61,6 +63,9 @@ A comma seprated values.
 import requests
 import logging
 import sys
+
+#with open("README.txt") as f:
+#  __doc__ = f.read()
 
 logging.basicConfig(stream=sys.stderr, level=logging.WARNING)
 

@@ -5,5 +5,5 @@ setup(
     version=open('VERSION').read(),
     packages=['google_status',],
     license=open('LICENSE').read(),
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
 )
